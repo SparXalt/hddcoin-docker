@@ -13,7 +13,7 @@ ENV farmer_address="null"
 ENV farmer_port="null"
 ENV testnet="false"
 ENV TZ="UTC"
-ENV HDDCOIN_CHECKOUT="fa28cc2a12308236706ac122fb6cd98634b840be"
+ENV HDDCOIN_CHECKOUT="1b7f475af43dd251d6b8e866066a0834712f45ec"
 
 RUN DEBIAN_FRONTEND=noninteractive apt-get update && DEBIAN_FRONTEND=noninteractive apt-get install --no-install-recommends -y bc curl lsb-release python3 tar bash ca-certificates git openssl unzip wget python3-pip sudo acl build-essential python3-dev python3.8-venv python3.8-distutils python-is-python3 vim tzdata && \
     rm -rf /var/lib/apt/lists/* && \
